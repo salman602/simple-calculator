@@ -1,0 +1,53 @@
+
+.heading{
+  text-align: center;
+  font-size: 2.8rem;
+}
+
+.grid-container{
+    background-color: aqua;
+    height: 80vh;
+    width: 100vh;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 5px;
+    
+
+}
+
+.grid-container>button {
+  border: 2px solid black;
+  text-align: center;
+  background-color: rgba(0, 0, 0 , 0.5);
+  padding: 5px;
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+}
+
+.display{
+  grid-row: 1;
+  grid-column: 1 / -1;
+  font-size: 1.8rem;
+  text-align: right;
+  padding: 0.4rem;
+}
+
+.item8{
+  grid-column: 4;
+  grid-row: 3 / span 2;
+    
+}
+.item15{
+  grid-column: 4;
+  grid-row: 5 / span 2;
+    
+}
+.item16{
+  grid-row: 6;
+  grid-column: 1 / span 2;
+  
+    
+}
+
